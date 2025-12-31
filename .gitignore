@@ -1,0 +1,82 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# ----------------------
+# Virtual environments
+# ----------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------
+# IDE / Editors
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Logs / Debug
+# ----------------------
+*.log
+*.tmp
+*.temp
+*.pid
+*.gz
+
+# ----------------------
+# Unit test / Coverage
+# ----------------------
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
+nosetests.xml
+.junit.xml
+
+# ----------------------
+# FastAPI / Uvicorn
+# ----------------------
+*.db
+*.sqlite3
+instance/
+*.sock
+
+# ----------------------
+# Env / Config
+# ----------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------
+# Node.js (если используешь фронт)
+# ----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------
+# Build / Dist
+# ----------------------
+dist/
+build/
+*.tar.gz
+*.whl
+
+# !!! САМОЕ ВАЖНОЕ: Игнорировать секреты и БД !!!
+secrets.json
